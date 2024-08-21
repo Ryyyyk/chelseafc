@@ -1,0 +1,409 @@
+body, html{
+    margin: 0;
+    font: 16px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    height: 100%;
+    background-color: rgb(24, 16, 136);
+    
+}
+
+#container {
+    #container {
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+    }
+    
+
+
+}
+
+#topo {
+    background: url(../imagens/chelsealogo2.png) no-repeat center center;
+    background-size: contain; /* Faz a imagem cobrir o topo de forma proporcional */
+    height: auto; /* Ajusta a altura conforme o conteúdo */
+    padding: 0; /* Remove qualquer padding */
+    margin: 0; /* Remove qualquer margin */
+    overflow: hidden; /* Garante que não haja overflow de conteúdo */
+    justify-content: space-between;
+
+}
+
+
+.logo {
+    width: 152px;
+    height: 66px;
+    margin-top: 0; /* Remova margens superiores se precisar */
+    text-indent: -9999px; /* Se quiser esconder o texto "Chelsea" */
+}
+
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#topo ul {
+    margin-top: -65px;
+    background: rgba(24, 16, 136, 0.8);
+    float: right;
+}
+
+#topo ul li {
+    float: right;
+    
+}
+
+#topo ul a {
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 3.7em;
+    line-height: 2.1em;
+    color: #ffffff;
+    text-decoration: none;
+    
+}
+
+#topo ul .primeiro a {
+    background: none;
+}
+
+#topo ul a:hover {
+    color: #7e6bd4;
+}
+
+
+body.home #navegacao a#home,
+body.titulos #navegacao a#titulos,
+body.Atualidade #navegacao a#Atualidade,
+body.historia #navegacao a#historia,
+body.contatos #navegacao a#contatos{
+    color: #ffffff;
+    background: #2315e0;
+    cursor: text;
+}
+
+#conteudo {
+    color: #777;
+    background-color: rgba(24, 16, 136, 0.8);
+    text-align: justify;
+    padding: 0px;
+}
+
+.texto-imagem {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(24, 16, 136, 0.8);
+}
+
+.imagem1 {
+    width: 40%;
+    height: 500px;
+    background-image: url(imagens/chelseachampions1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-right: 20px
+    
+     /* Espaço entre a imagem e o texto */
+     /* Espaço entre a imagem e o texto */
+}
+
+p {
+    margin: 0;
+    padding: 10px; /* Adiciona espaçamento interno para evitar que o texto encoste nas bordas */
+    flex: 1; /* O texto ocupa o espaço restante ao lado da imagem */
+    font-size: 25px;
+    background-color: rgba(24, 16, 136, 0.8); /* Adiciona um fundo azul com transparência */
+    color: white; /* Deixa o texto em branco para melhor contraste */
+    padding: 0.5em 2em;
+line-height: 1.6;  /* Aumenta o espaçamento entre as linhas */
+
+}
+
+
+
+
+h3{
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+}
+
+h1{
+    color: #fff;
+}
+
+/*efeito paralax*/
+
+.caixa1, .caixa2{
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+   
+}
+
+.caixa1 {
+ background-image: url(imagens/alwaysblu.jpg);
+}
+
+.caixa2 {
+background-image: url(imagens/chelseabandeira.webp);
+}
+
+.caixa3{
+    height: 2000px;
+    background-color: rgb(24, 16, 136);
+}
+
+.fotos1{
+    background-image: url(imagens/lampard1.webp);
+    background-position: center;
+    height: 50%;
+    width: 50%;
+    background-repeat: no-repeat;
+    
+
+}
+
+
+.fotos2{
+    background-image: url(imagens/chelseafeminino.jpeg);
+    margin-top: 500px;
+    float: right;
+    background-repeat: no-repeat;
+    height:50%;
+    width: 50%;
+    
+    
+    
+
+
+}
+
+.fotos3{
+    background-image: url(imagens/chelseahappy2.jpg);
+    margin-top: 100px;
+    background-position: right;
+    margin-left: 30px;
+    height: 45%;
+    width: 45%;
+    background-repeat: no-repeat;    
+
+}
+
+
+#rodapé{
+    background-color:rgb(30, 24, 122);
+    padding: 20px;
+}
+
+#rodape{
+    justify-content: center;
+    width: 1000px;
+    margin: 0 auto;
+    color: #ffffff;
+}
+
+.titulotexto1{
+    margin-left: 790px;
+    margin-top: 100px;
+    
+
+}
+.titulotexto2{
+    margin-left: 550px;
+    margin-top: 100px;
+    
+
+}
+
+#container2{
+margin-left: 200px;
+margin-right: 200px;
+display: flex;
+justify-content: center;
+background: rgb(24, 16, 136);
+height: 2000px;
+
+
+}
+
+#container3{
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    justify-content: center;
+    background: rgb(24, 16, 136);
+    height: 2300px;
+
+    
+}
+
+#container4{
+
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    justify-content: center;
+    background: rgb(24, 16, 136);
+    height: 3400px;
+
+}
+
+ .containertexto p{
+margin-top: 60px;
+padding: 0.5em 4em;
+justify-content: flex-start;
+align-items: baseline;
+color: rgb(255, 255, 255) ;
+line-height: 1.6;  /* Aumenta o espaçamento entre as linhas */
+
+
+}
+
+.championsimage1{
+    background-image:url(imagens/chelseachampions2012.webp); 
+    height: 600px;
+    background-repeat: no-repeat;
+    margin-left: 120px;
+}
+
+.mareca{
+    background-image:url(imagens/mareca.jpg); 
+    height: 600px;
+    background-repeat: no-repeat;
+    margin-left: 200px;
+    
+}
+
+.chelseaatualidade1{
+    background-image:url(imagens/chelsea2024.webp); 
+    height: 600px;
+    background-repeat: no-repeat;
+    margin-left: 200px;
+}
+
+.chelseaatualidade2{
+    background-image:url(imagens/chelsea20241.jpg); 
+    height: 600px;
+    background-repeat: no-repeat;
+    margin-left: 150px;
+}
+
+
+.championsimage2{
+    background-image:url(imagens/chelseachampions3.jpg); 
+    height: 600px;
+    background-repeat: no-repeat;
+    margin-left: 150px;
+}
+
+
+
+/*aaaaaaaaaaaaaa*/
+
+ul {
+  list-style: none;
+}
+
+.example-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.example-2 .icon-content {
+  margin: 0 10px;
+  position: relative;
+  margin-top: 300px;
+}
+.example-2 .icon-content .tooltip {
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 5px;
+  opacity: 0;
+  visibility: hidden;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+.example-2 .icon-content:hover .tooltip {
+  opacity: 1;
+  visibility: visible;
+  top: -50px;
+}
+.example-2 .icon-content a {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: #4d4d4d;
+  background-color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.example-2 .icon-content a:hover {
+  box-shadow: 3px 2px 45px 0px rgb(0 0 0 / 12%);
+}
+.example-2 .icon-content a svg {
+  position: relative;
+  z-index: 1;
+  width: 30px;
+  height: 30px;
+}
+.example-2 .icon-content a:hover {
+  color: white;
+}
+.example-2 .icon-content a .filled {
+  position: absolute;
+  top: auto;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background-color: #000;
+  transition: all 0.3s ease-in-out;
+}
+.example-2 .icon-content a:hover .filled {
+  height: 100%;
+}
+
+.example-2 .icon-content a[data-social="linkedin"] .filled,
+.example-2 .icon-content a[data-social="linkedin"] ~ .tooltip {
+  background-color: #0274b3;
+}
+
+.example-2 .icon-content a[data-social="github"] .filled,
+.example-2 .icon-content a[data-social="github"] ~ .tooltip {
+  background-color: #24262a;
+}
+.example-2 .icon-content a[data-social="instagram"] .filled,
+.example-2 .icon-content a[data-social="instagram"] ~ .tooltip {
+  background: linear-gradient(
+    45deg,
+    #405de6,
+    #5b51db,
+    #b33ab4,
+    #c135b4,
+    #e1306c,
+    #fd1f1f
+  );
+}
+.example-2 .icon-content a[data-social="youtube"] .filled,
+.example-2 .icon-content a[data-social="youtube"] ~ .tooltip {
+  background-color: #ff0000;
+}
+
+  
